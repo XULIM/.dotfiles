@@ -1,5 +1,5 @@
 # .dotfiles
-Config files for my Arch Linux laptop. See [system info](README.md#system-info).
+Config files for my Arch Linux laptop. See [system info](#system-info).
 
 ## Requirements
 - **bash** (probably)
