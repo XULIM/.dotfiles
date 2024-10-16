@@ -1,0 +1,12 @@
+[user]
+	email = not3lbobillibo@gmail.com
+	name = XULIM
+[alias]
+	br = branch
+	cd = switch
+	ch = checkout
+	cm = commit
+	st = status
+	s = status -s
+	unstage = reset HEAD --
+	a = add
