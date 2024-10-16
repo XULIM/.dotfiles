@@ -1,5 +1,6 @@
 # .dotfiles
-Config files for my Arch Linux laptop. See [system info](#system-info).
+Config files for my laptop. More details see [system info](#system-info).  
+Prepared to wipe my drive and remove Windows 11 and only use Arch.  
 
 ## Requirements
 - **bash** (probably)
