@@ -1,7 +1,6 @@
 # profile for: bobillibo@arch
 [[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
 XDG_CONFIG_HOME="~/.config"
-source ~/.venv/bin/activate
 
 # misc
 alias ll="eza -la --header --color=always"
