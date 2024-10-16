@@ -19,4 +19,4 @@ Prepared to wipe my drive and remove Windows 11 and only use Arch.
 - GPU1: Intel WhiskeyLake-U GT2 (UHD Graphics 620)
 - GPU2: NVIDIA GeForce MX150
 - RAM: 8GB or something, I do not remember how much memory I allocated for Arch.
-- Shell: bash, tried fish and zsh but the syntax from these 2 shells are too different from bash, use those.
+- Shell: bash, tried fish and zsh but the syntax from these 2 shells are too different from bash, use those if you want autocomplete or some other plugins.
