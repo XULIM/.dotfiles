@@ -1,3 +1,6 @@
+import = [
+    "~/.config/alacritty/themes/themes/kanagawa_dragon.toml"
+]
 shell = "/usr/bin/bash"
 
 [window]
@@ -8,33 +11,3 @@ opacity = 1.0
 # fc-list then pipe to filter, e.g. fc-list | grep 0xProto
 normal = { family = "monospace", style = "Regular" }
 # normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
-
-# FROM alacritty-theme/themes/kanagawa-dragon.toml
-[colors.primary]
-background = '#181616'
-foreground = '#c5c9c5'
-
-[colors.normal]
-black = '#0d0c0c'
-blue = '#8ba4b0'
-cyan = '#8ea4a2'
-green = '#8a9a7b'
-magenta = '#a292a3'
-red = '#c4746e'
-white = '#C8C093'
-yellow = '#c4b28a'
-
-[colors.bright]
-black = '#a6a69c'
-blue = '#7FB4CA'
-cyan = '#7AA89F'
-green = '#87a987'
-magenta = '#938AA9'
-red = '#E46876'
-white = '#c5c9c5'
-yellow = '#E6C384'
-
-[colors.selection]
-background = '#2d4f67'
-foreground = '#c8c093'
-
