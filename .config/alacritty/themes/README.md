@@ -1,9 +1,10 @@
 # Alacritty Theme
 
-FROM: (alacritty-theme)[https://github.com/alacritty/alacritty-theme]
+From: [Alacritty-Theme]
 Collection of colorschemes for easy configuration of the [Alacritty terminal
 emulator].
 
+[Alacritty-Theme]: https://github.com/alacritty/alacritty-theme
 [Alacritty terminal emulator]: https://github.com/alacritty/alacritty
 
 ## License
