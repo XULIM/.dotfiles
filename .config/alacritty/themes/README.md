@@ -1,6 +1,6 @@
 # Alacritty Theme
 
-From: [Alacritty-Theme]
+From: [Alacritty-Theme]  
 Collection of colorschemes for easy configuration of the [Alacritty terminal
 emulator].
 
