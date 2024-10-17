@@ -91,5 +91,5 @@ prompt_suf()
     [ ! -z "$(git_branch)" ] && echo ")"
 }
 
-PS1="${nm}${kurisu}kurigohan${nm}@${cyan}\W${bold}${blue}\$(prompt_pre)${magenta}\$(prompt_branch)${dark_gray}\$(untrack)${red}\$(modified)${green}\$(staged)${light_green}\$(incoming)${light_yellow}\$(outgoing)${blue}\$(prompt_suf)${bold}${nm} $ \[\e[0m\]"
+export PS1="${nm}${kurisu}kurigohan${nm}@${cyan}\W${bold}${blue}\$(prompt_pre)${magenta}\$(prompt_branch)${dark_gray}\$(untrack)${red}\$(modified)${green}\$(staged)${light_green}\$(incoming)${light_yellow}\$(outgoing)${blue}\$(prompt_suf)${bold}${nm} $ \[\e[0m\]"
 # ===
