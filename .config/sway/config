@@ -202,14 +202,13 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
-set $tx #ffffff
-set $bg #181616
-set $black #0d0c0c
-set $fg-green #87a987
-set $fg-blue #8ba4b0
+set $old_white #C8C093
+set $sumi_ink #16161D
+set $inactive #5c5c5c
+set $wave_blue #223249
 
 # client.<class> border background text [<indicator> [<child_border>]]
-client.focused $fg-green $fg-green $black
+client.focused $sumi_ink $sumi_ink $old_white
 
 # sway-bar (man 5 sway-bar)
 bar {
@@ -218,10 +217,10 @@ bar {
     status_command while ~/.config/sway/scripts/swaybar.sh; do sleep 1; done
 
     colors {
-        statusline $tx
-        background $bg
-	    focused_workspace $fg-blue $fg-blue $tx
-	    inactive_workspace $bg $bg #5c5c5c
+        statusline $old_white
+        background $sumi_ink
+	    focused_workspace $wave_blue $wave_blue $old_white
+	    inactive_workspace $sumi_ink $sumi_ink $inactive
     }
 
 }
