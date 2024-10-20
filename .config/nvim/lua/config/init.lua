@@ -119,6 +119,20 @@ cmp.setup({
 require("luasnip.loaders.from_vscode").lazy_load()
 
 -- colorscheme
+require("rose-pine").setup(
+    {
+        variant = "main",
+        enable = {
+            terminal = true,
+            migration = true,
+        },
+        styles = {
+            bold = true,
+            italic = false,
+        },
+        disable_background = true,
+    }
+)
 require("kanagawa").setup({
     undercurl = true,
     commentStyle = { italic = false },
