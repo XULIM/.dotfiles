@@ -29,6 +29,7 @@ require("lazy").setup({
 require("mason").setup()
 require("mason-lspconfig").setup({
     ensure_installed = { -- other installed: cpplint
+        "asm_lsp",
         "lua_ls",
         "clangd",
         "bashls",
