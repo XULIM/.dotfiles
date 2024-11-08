@@ -10,3 +10,5 @@
 	s = status -s
 	unstage = reset HEAD --
 	a = add
+	ll = status
+	ls = status -s

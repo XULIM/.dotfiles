@@ -18,4 +18,6 @@ git config --global alias.ch checkout
 git config --global alias.cm commit
 git config --global alias.st status
 git config --global alias.s "status -s"
+git config --global alias.ll status
+git config --global alias.ls "status -s"
 git config --global alias.unstage 'reset HEAD --'

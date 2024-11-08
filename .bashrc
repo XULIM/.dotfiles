@@ -15,6 +15,10 @@ alias vidiff="nvim -d"
 alias g="git"
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 
+# tmux alias
+alias ta="tmux a -t"
+alias tk="tmux kill-session -t"
+
 # PS1 CUSTOMIZATIONS ===
 
 bold="\[\e[1m\]"
