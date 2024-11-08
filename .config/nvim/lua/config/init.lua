@@ -45,6 +45,7 @@ require("mason-lspconfig").setup({
 
 -- lspconfig
 local lspconf = require("lspconfig")
+lspconf.asm_lsp.setup({})
 lspconf.bashls.setup({})
 lspconf.clangd.setup({})
 lspconf.marksman.setup({})
