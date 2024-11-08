@@ -1,6 +1,7 @@
 # profile for: bobillibo@arch
 [[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
 XDG_CONFIG_HOME="~/.config"
+export TERM="xterm-256color"
 
 # misc
 alias ll="eza -la --header --color=always"

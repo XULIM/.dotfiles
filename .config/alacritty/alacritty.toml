@@ -1,7 +1,10 @@
-import = [
+general.import = [
     "~/.config/alacritty/themes/themes/kanagawa_dragon.toml"
 ]
-shell = "/usr/bin/bash"
+terminal.shell = "/usr/bin/bash"
+
+[env]
+term = "xterm-256color"
 
 [window]
 #padding = { x = 10, y = 10 }
