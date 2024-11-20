@@ -9,6 +9,7 @@ alias wcopy="wl-copy"
 alias wpaste="wl-paste"
 
 # nvim alias
+alias v="vim"
 alias vi="nvim"
 alias vidiff="nvim -d"
 
