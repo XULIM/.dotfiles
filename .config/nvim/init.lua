@@ -10,4 +10,5 @@ vim.cmd("set expandtab")
 vim.cmd("set signcolumn=yes")
 vim.cmd("set path=.,,**")
 vim.cmd("set splitbelow")
-vim.o.termguicolors=true
+vim.cmd("set wildmenu")
+vim.cmd("set wildmode=longest,list")

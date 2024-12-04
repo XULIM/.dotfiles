@@ -153,6 +153,3 @@ require("solarized-osaka").setup({
     end
 })
 vim.cmd("colorscheme kanagawa")
-
--- colorizer
-require("colorizer").setup()
