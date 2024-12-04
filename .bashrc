@@ -8,10 +8,12 @@ alias ll="eza -la --header --color=always"
 alias wcopy="wl-copy"
 alias wpaste="wl-paste"
 
-# nvim alias
+# vim alias
 alias v="vim"
-alias vi="nvim"
-alias vidiff="nvim -d"
+alias vi="vim"
+
+# nvim alias
+alias nvidiff="nvim -d"
 
 # git alias
 alias g="git"
