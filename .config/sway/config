@@ -10,7 +10,7 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term kitty
+set $term foot
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -59,7 +59,7 @@ exec swayidle -w \
 # Read `man 5 sway-input` for more information about this section.
 
 # font
-font pango:monospace 10
+font TempleOS 10
 
 # border (none removes the title bar)
 default_border none 
