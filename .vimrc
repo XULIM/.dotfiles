@@ -24,6 +24,7 @@ nmap <leader>f :e <C-d>
 syntax on
 set laststatus=2
 set scrolloff=4
+set timeoutlen=100
 
 set smarttab
 set tabstop=4
@@ -48,6 +49,11 @@ augroup InitNetrw
     autocmd!
     autocmd VimEnter * if expand("%") == "" | :Ex | endif
 augroup end
+
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+" tag file for all header files in /usr/include /usr/local/include
+set tags+=~/.vim/systags
 
 call plug#begin()
     Plug 'owickstrom/vim-colors-paramount'
