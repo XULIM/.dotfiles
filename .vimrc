@@ -56,6 +56,7 @@ set omnifunc=syntaxcomplete#Complete
 set tags+=~/.vim/systags
 
 call plug#begin()
+    Plug 'epheien/termdbg'
     Plug 'owickstrom/vim-colors-paramount'
     Plug 'jasonccox/vim-wayland-clipboard'
     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
