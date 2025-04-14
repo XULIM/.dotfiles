@@ -1,7 +1,8 @@
 source ~/.bashrc
 
 # misc
-alias ll="eza -la --header --color=always"
+alias ll="eza -l --header --color=always"
+alias la="eza -la --header --color=always"
 alias wcopy="wl-copy"
 alias wpaste="wl-paste"
 
