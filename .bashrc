@@ -4,7 +4,8 @@ XDG_CONFIG_HOME="~/.config"
 export TERM="xterm-256color"
 
 # misc
-alias ll="eza -la --header --color=always"
+alias ll="eza -l --header --color=always"
+alias la="eza -la --header --color=always"
 alias wcopy="wl-copy"
 alias wpaste="wl-paste"
 
@@ -20,6 +21,7 @@ alias g="git"
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 
 # tmux alias
+alias tm="tmux"
 alias ta="tmux a -t"
 alias tk="tmux kill-session -t"
 
