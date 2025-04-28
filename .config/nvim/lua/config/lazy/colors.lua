@@ -1,10 +1,9 @@
 return {
-	{"rebelot/kanagawa.nvim"},
 	{
-		"rose-pine/neovim",
-		name = "rose-pine",
-	},
-	{
-		"craftzdog/solarized-osaka.nvim",
-	},
+        "rebelot/kanagawa.nvim"
+    },
+    {
+        "slugbyte/lackluster.nvim",
+        lazy=false,
+    },
 }

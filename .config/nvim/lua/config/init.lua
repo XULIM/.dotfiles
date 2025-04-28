@@ -121,20 +121,6 @@ cmp.setup({
 require("luasnip.loaders.from_vscode").lazy_load()
 
 -- colorscheme
-require("rose-pine").setup(
-    {
-        variant = "main",
-        enable = {
-            terminal = true,
-            migration = true,
-        },
-        styles = {
-            bold = true,
-            italic = false,
-        },
-        disable_background = true,
-    }
-)
 require("kanagawa").setup({
     undercurl = true,
     commentStyle = { italic = false },
@@ -146,10 +132,10 @@ require("kanagawa").setup({
     background = { dark = "dragon", light = "lotus" },
 })
 
-require("solarized-osaka").setup({
-    transparent = true,
-    on_colors = function(colors)
-        colors.red = "#97444B"
-    end
+-- Paramount (pretty much)!
+require("lackluster").setup({
+    tweak_color = {
+        lack="#a790d5",
+    }
 })
-vim.cmd("colorscheme kanagawa")
+vim.cmd("colorscheme lackluster")
