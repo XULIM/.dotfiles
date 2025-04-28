@@ -21,7 +21,7 @@ nmap <leader>j :call GotoJump()<CR>
 nmap <leader>te :Ex<CR>
 nmap <leader>f :e <C-d>
 
-syntax on
+" syntax on
 set laststatus=2
 set scrolloff=4
 set timeoutlen=100
@@ -45,6 +45,9 @@ set path=.,,**
 set number
 set relativenumber
 
+" Omnicomplete options
+set completeopt=menu,preview,noinsert
+
 augroup InitNetrw
     autocmd!
     autocmd VimEnter * if expand("%") == "" | :Ex | endif
@@ -54,6 +57,7 @@ filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 " tag file for all header files in /usr/include /usr/local/include
 set tags+=~/.vim/systags
+set tags+=~/.vim/raylib_tags
 
 call plug#begin()
     Plug 'epheien/termdbg'
